@@ -1,35 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.main-banner{
-  background-color: #F3F7FF;
+*{
+  font-family: 'Open Sans', sans-serif;
 }
-.main{
+
+:root {
+  --color-primary: #DE1C13;
+  --color-secondary: #0099FF;
+  --color-dark: #333;
+  --color-extraLight: #A6A6A6;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-extraLight{
+  color: var(--color-extraLight);
+}
+
+.color-dark{
+  color: var(--color-dark);
+}
+
+.color-secondary{
+  color: var(--color-secondary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-extraLight{
+  background-color: var(--color-extraLight);
+}
+
+.bg-dark{
+  background-color: var(--color-dark);
+}
+
+.bg-secondary{
+  background-color: var(--color-secondary);
+}
+
+.main-banner {
+  background-color: #F3F7FF;
+  height: calc(100vh - 88px);
+}
+
+.main-banner .para-title::before {
+  content: '';
+  top: 49%;
+  left: -40px;
+  height: 3px;
+  border-radius: 10px;
+  width: 35px;
+  background-color: var(--color-secondary);
+  position: absolute;
+}
+
+.main {
   width: 400px;
   height: 400px;
   margin: auto;
 }
-.title{
+
+.title {
   position: absolute;
-  top:25%;
+  top: 25%;
   left: 17%;
   color: #09f;
   font-family: open;
 }
-.please{
+
+.please {
   color: #09f;
 }
-.ri-arrow-right-s-fill{
+
+.ri-arrow-right-s-fill {
   box-shadow: 1px 1px 13px 4px #c64e2170;
 }
+
 /* about */
-.about1{
+.about1 {
   width: 40px;
   height: 40px;
   background-color: white;
   box-shadow: -2px 0px 1px 0px red;
 }
-.about-img{
+
+.about-img {
   width: 70% !important;
 }
+

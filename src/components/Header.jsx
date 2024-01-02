@@ -6,7 +6,7 @@ import Button from "./Button"
 
 const Header = () => {
     return (
-        <header className="w-full  p-7">
+        <header className="w-full p-6">
             <div className="m-auto container flex justify-between items-center">
                 <div className="logo">
                     <Image src={'/logo.png'} width={100} height={100} alt="no"></Image>
@@ -31,7 +31,7 @@ const Header = () => {
                     <Link href={'/'}>Contact</Link>
                     </li>
                 </ul>
-                <Button title="book appointment"/>
+                <Button title="Get an Appointment" hasIcon={false}/>
             </div>
         </header>
     )

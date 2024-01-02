@@ -29,7 +29,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="flex items-center text-white bg-red-600 p-2 rounded-md ms-4 mt-4"><span>Get Appointment</span><i class="ri-arrow-right-line ms-2"></i></button>
+                        <button className="flex items-center text-white bg-red-600 p-2 rounded-md ms-4 mt-4"><span>Get Appointment</span><i className="ri-arrow-right-line ms-2"></i></button>
 
                     </div>
 
