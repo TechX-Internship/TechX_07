@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# TechX Project Setup
+
+## Instructions
+
+1. Clone this repository: `git clone https://github.com/TechX-Internship/TechX_07.git`
+## Figma Link
+
+Figma Link: `https://www.figma.com/file/HWik52YGdKiLekenC1Ckb1/York-Recruitment-Healthcare-%26-Technical?type=design&node-id=0-1&mode=design&t=kqRybAYN3OO9PI4F-0`
+>>>>>>> 903168497a581aa86867970ec5c7d44c31a030d8
